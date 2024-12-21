@@ -1,7 +1,3 @@
-Here’s a sample **README.md** for your GitHub project on AI-based turbulence modeling using the **Johns Hopkins Turbulence Database (JHTDB)**:
-
----
-
 # AI-Based Turbulence Modeling with Machine Learning
 
 This project explores the use of **Artificial Intelligence (AI)** and **Machine Learning (ML)** techniques to assist in modeling turbulence, a complex phenomenon in fluid dynamics. Specifically, the project leverages methods like **Neural Networks**, **Regression**, and **Deep Learning** models to predict or approximate turbulence closures in fluid flow simulations. The work is based on the **Johns Hopkins Turbulence Database (JHTDB)** and follows the methodologies described in the paper [DOI: 10.1007/s40314-023-02547-9](https://doi.org/10.1007/s40314-023-02547-9).
