@@ -26,9 +26,6 @@ In this project, we explore the use of machine learning techniques for turbulenc
 - **Neural Networks**: To predict or enhance existing turbulence models.
 - **Regression Techniques**: To model the turbulence behavior based on available CFD data.
 - **Deep Learning Models**: For more complex, high-dimensional turbulence data.
-  
-The project follows the techniques described in the research paper **"AI-Based Turbulence Modeling Using Machine Learning"** (DOI: 10.1007/s40314-023-02547-9).
-
 ---
 
 ## Data Selection
@@ -61,18 +58,7 @@ To run the project locally, follow these steps:
 - Pandas
 - JHTDB Data (available upon request from the JHTDB website)
 
-### Step 1: Clone the repository
-```bash
-git clone https://github.com/yourusername/turbulence-ai-modeling.git
-cd turbulence-ai-modeling
-```
-
-### Step 2: Install required packages
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3: Download the JHTDB dataset
+### Download the JHTDB dataset
 Download the relevant dataset from the **JHTDB website** (details in the "Data Selection" section).
 
 ---
@@ -81,15 +67,6 @@ Download the relevant dataset from the **JHTDB website** (details in the "Data S
 
 Once the project is set up, you can run the following Python script to train and evaluate the model:
 
-### Train the Model
-```bash
-python train_model.py
-```
-
-### Evaluate the Model
-```bash
-python evaluate_model.py
-```
 
 The training script will preprocess the data, train the neural network, and save the model weights. The evaluation script will compare the model’s predictions with traditional turbulence models (e.g., RANS, LES).
 
@@ -117,8 +94,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - The **Johns Hopkins Turbulence Database (JHTDB)** for providing high-quality CFD data.
 - The research paper [DOI: 10.1007/s40314-023-02547-9](https://doi.org/10.1007/s40314-023-02547-9) for inspiration and methodology.
-- The TensorFlow and Keras communities for their machine learning tools.
-
----
-
-This README provides an overview of the project, steps to set it up, and how to run the model. It also includes instructions for evaluating the model and comparing it to traditional turbulence models.
